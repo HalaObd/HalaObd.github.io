@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="Books.css" rel="stylesheet" type="text/css" />
+  <link href="NavStyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- sideNav -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+font-family: proxima-nova, sans-serif;
+transition: background-color .5s;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: whitesmoke;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: gray;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">HOME</a>
+  <a href="#">ABOUT</a>
+  <a href="#">ESSAYS</a>
+  <a href="#">ARCHIVE</a>
+</div>
+
+<div id="main">
+<!--   <h2>Sidenav Push Example</h2>
+  <p>Click on the element below to open the side navigation menu, and push this content to the right. Notice that we add a black see-through background-color to body when the sidenav is opened.</p> -->
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+   
+</body>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+<!--sideNav ends-->
+  <h3 class="title"> REORIENT
+  </h3>
+   <hr>
+<nav class="navbar">
+<!--   <a href=
+<!--   <a href="Home.html">NEWS</a> --> 
+  <a href=index.html>HOME</a>
+  <a href="Archive.html">ARCHIVE</a>
+  <a href="Music.html">MUSIC</a>
+  <a href="Books.html">BOOKS</a>
+  <a href="Spotlight.html">ABOUT</a>
+
+</nav>
+<hr></hr>
+
+<h8 class="bookTitle"><hr class="mahmoudLineOne"></hr><center>LITERATURE</center><hr class="mahmoudLine"></hr> </h8>
+
+<h4 class="rumiTitle"> <i>RUMI</i>: A COLLECTION</h4>
+  <hr class="rumiLine"></hr>
+
+<h5 class="lifeTitle"> <a href=life.html>Life & Death</a></h5>
+<h5 class="loveTitle"> <a href=love.html>Love</a></h5>
+<h5 class="passionTitle"> <a href=passion.html>Passion</a></h5>
+<h5 class="religionTitle"> <a href=religion.html>Religion</a></h5>
+<h5 class="inspiraTitle"> <a href=inspira.html>Inspirational</a></h5>
+  
+<img class="mahmoudPic"src="https://www.poetryinvoice.com/sites/default/files/styles/home_front_700x400/public/pictures/picture-18585-1566433942.jpg?itok=UICx5JD4">
+<h4 class="mahmoudTitle">SIGNED, YOURS TRULY </h4>
+<p class="mahmoudTitleOne">THE GREATEST POEMS FROM MAHMOUD DARWISH</p>
+<p2 class="mahmoudTitleTwo">"To our land,
+and it is the one near the word of god,
+a ceiling of clouds."</p2>
+<h4 class="mahmoudTitleThree"><b>OUR COLLECTION</b></h4>
+
+<hr class="paperbag" style="position:relative; top:30px;"></hr>
+<div class="jewishLit"style="position:relative;top:40px">
+<img class="saharaPic"src="http://img294.imageshack.us/img294/2903/leiden02.jpg">
+  <h4 class="sahTitle"> PRESERVED WORDS </h4>
+<p class="sahTitleOne"><i>LETTERS TO JUDEA</i></p>
+<p2 class="sahTitleTwo">The preservation of Jewish literature throughout history. </p2>
+<h4 class="sahTitleThree"><b>BY: HALA OBEID</b></h4>
+ <hr class="sahSideLine"style="width:35%;text-align:left"></hr>
+</div>
+
+</html>

@@ -1,0 +1,485 @@
+html, body {
+   height: 1100px;
+}
+
+.title{
+  text-align: center;
+  font-size: 65px;
+  color:black;
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: 300;
+  margin-top:0%;
+}
+
+.para {
+  text-align: center;
+  padding-top:5%;
+}
+
+body {
+    color:#cfcaab;
+}
+
+.navbar {
+  color: #cfcaab; 
+  font-family: monarcha, serif;
+  overflow: hidden;
+  border-radius: 5px;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top:0%;
+/*   padding-top: ; */
+}
+
+.header {
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 10px;
+  font-family: serif;
+  color:#290f0f;
+  margin-top:0%;
+  margin-bottom: 0%;
+  
+}
+
+
+ a{
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+}
+
+.navbar a {
+  float: left;
+  color: #a19b9b;
+  font-family: vendetta, serif;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+
+
+}
+
+.navbar a:hover {
+  background-color: #fffcfa;
+  color: #0b0b0a;
+  text-decoration:underline;
+}
+
+.navbar a.active {
+  background-color: #8B74BD;
+  color: white;
+}
+
+
+.header {
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 10px;
+  font-family: serif;
+  color:white;
+  margin-top:0%;
+  margin-bottom: 0%;
+  
+}
+
+
+ a{
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+  navbar a {
+  float: left;
+  color: #f2f2f2;
+  font-family: vendetta, serif;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+
+
+}
+/* CONTENT */
+.musicTitle{
+  color:black;
+  text-align:center;
+  margin-top:5%;
+  font-size:55px;
+  font-family:Century Gothic;
+  font-weight:20%;
+} 
+/* Lines for Music */
+.musicLine{
+ margin-left:35%;
+ margin-right:35%; 
+}
+
+.musicLineOne{
+ margin-left:27%;
+ margin-right:27%; 
+ margin-top:2%;
+}
+
+.vinyl1{
+  width:35px;
+  margin-top:35px;
+  padding-top:-50px;
+
+}
+
+/* .vinyl2{
+  width:90px;
+  height: 90px;
+}
+
+.vinyl{
+  width:150px;
+ */
+} 
+.row{
+  display:flex;
+ justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.playlistTitle{
+color:red;
+margin-top:1%;
+margin-bottom:0%;
+font-size: 30px;
+font-family:Century Gothic;
+text-decoration: underline;
+}
+
+/* Fairouz + Arab music */
+
+.fairouzPic{
+  width:300px;
+  margin-top:3%;
+  margin-left:30px;
+}
+
+.arabMusic{
+color:black;
+font-size:15px;
+font-family:Century Gothic;
+}
+
+.arabMusicTwo{
+color:black;
+font-size:10px;
+font-family:Verdana;
+margin-top:20%;
+}
+
+
+.lineBelow{
+margin-right:73%;
+}
+
+
+
+
+.afterFairouz{
+margin-right:73%;
+}
+
+
+/* Nubian */
+.sharhabilPic{
+  width:300px;
+  margin-top:3%;
+  margin-left:30px;
+}
+
+.nubianMusic{
+color:black;
+font-size:18px;
+font-family:Century Gothic;
+
+}
+
+.nubianMusicTwo{
+color:black;
+font-size:10px;
+font-family:Verdana;
+margin-top:20%;
+}
+
+.afterWardi{
+ margin-right:73%; 
+}
+/* Iranian Music  */
+.iranGirl{
+  width:300px;
+  margin-top:3%;
+  margin-left:30px;
+}
+
+
+
+.iranianMusic{
+color:black;
+font-size:18px;
+font-family:Century Gothic;
+}
+
+.iranianMusicTwo{
+color:black;
+font-size:10px;
+font-family:Verdana;
+margin-top:20%;
+  
+}
+
+
+
+/* Sephardic */
+/* .weekTitle{
+color:red;
+margin-top:3%;
+margin-bottom:0%;
+font-size: 25px;
+font-family:Century Gothic;
+}
+ */
+
+.sephardicPic{
+  width:300px;
+  margin-top:3%;
+}
+
+
+.sephardicLine{
+  margin-right:73%;  
+}
+
+
+
+/* that  */
+.lastStraw{
+ transform: rotate(90deg);
+ margin-top:90px;
+ margin-left:-600px;
+}
+.lineBelowS{
+  margin-right:73%; 
+}
+
+.cacImg{
+  width:850px;
+  margin-left:37%;
+
+  
+}
+
+.cacTitle{
+color:red;
+font-size:14px;
+font-family:Century Gothic;
+margin-left:37%;
+display:flex;
+align-items:flex-end;
+margin-top:px;
+}
+
+.cacTitleOne{
+color:black;
+font-size:35px;
+font-family:Trebuchet;
+margin-left:37%;
+display:flex;
+align-items:flex-end;
+margin-top: 20px;
+}
+
+.cacTitleTwo{
+  font-family: Times New Roman ;
+  font-size:21px;
+  color:black;
+  margin-left:37%;
+  display:flex;
+  align-items:flex-end;
+  margin-top: 20px;
+  
+}
+
+.cacTitleThree{
+  color:#212121;
+font-size:14px;
+font-family:Century Gothic;
+margin-left:37%;
+display:flex;
+align-items:flex-end;
+margin-top: 20px;
+
+}
+
+.cacLastLine{
+  margin-left:490px;
+  margin-right:20px;
+  margin-top:-1300px;
+}
+
+.saharaPic{
+  width:400px;
+  margin-left:800px;
+  margin-top:10%;
+  
+  
+}
+
+.sahTitle{
+color:red;
+font-size:13px;
+font-family:Century Gothic;
+margin-left:37%;
+display:flex;
+align-items:flex-end;
+margin-top:-1px;
+}
+
+.sahTitleOne{
+color:black;
+font-size:32px;
+font-weight:1%;
+font-family:Trebuchet;
+margin-left:37%;
+display:flex;
+align-items:flex-end;
+margin-top: 20px;
+}
+
+.sahTitleTwo{
+  font-family: Times New Roman ;
+  font-size:17px;
+  color:black;
+  margin-left:37%;
+  display:flex;
+  align-items:flex-end;
+  margin-top: 20px;
+  
+}
+
+.sahTitleThree{
+  color:#212121;
+font-size:13px;
+font-family:Century Gothic;
+margin-left:37%;
+display:flex;
+align-items:flex-end;
+margin-top: 20px;
+
+}
+.sahLastLine{
+  margin-left:490px;
+  margin-right:20px;
+}  
+
+.sahSideLine{
+transform: rotate(90deg); 
+margin-right:250px;
+margin-top:-300px;
+} 
+
+/* Sherihannn */
+.sheriPic{
+ width:390px;
+ height:318px;
+ margin-left:1040px;
+ margin-top:60px;
+}
+
+.sheriTitle{
+color:red;
+font-size:13px;
+font-family:Century Gothic;
+margin-left:1050px;
+display:flex;
+align-items:flex-end;
+margin-top:-220px;
+}
+
+.sheriTitleOne{
+color:black;
+font-size:25px;
+font-weight:1%;
+font-family:Trebuchet;
+margin-left:1050px;
+display:flex;
+align-items:flex-end;
+margin-top: 27px;
+}
+
+.sheriTitleTwo{
+  font-family: Times New Roman ;
+  font-size:17px;
+  color:black;
+  margin-left:1050px;
+  display:flex;
+  align-items:flex-end;
+  margin-top: 40px;
+  
+}
+
+.sheriTitleThree{
+  color:#212121;
+font-size:13px;
+font-family:Century Gothic;
+margin-left:1050px;
+display:flex;
+align-items:flex-end;
+margin-top: 20px;
+
+}
+
+.sephardicPic{
+  margin-left:13px;
+}
+
+
+img:hover {
+opacity: 75%;
+
+}
+
+/* .Girl{
+  width:300px;
+  margin-top:3%;
+  margin-left:30px;
+} */
+
+
+
+.sephardicMusic{
+color:black;
+font-size:18px;
+font-family:Century Gothic;
+}
+
+.sephardicMusicTwo{
+color:black;
+font-size:10px;
+font-family:Verdana;
+margin-top:20%;
+  
+}
+
+
+.playlistTitle1{
+color:red;
+margin-top:1%;
+margin-bottom:0%;
+font-size: 20px;
+font-family:Century Gothic;
+/* text-decoration: underline; */
+}

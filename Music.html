@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="Music.css" rel="stylesheet" type="text/css" />
+  <link href="NavStyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- sideNav -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+font-family: proxima-nova, sans-serif;
+transition: background-color .5s;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: whitesmoke;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: gray;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">HOME</a>
+  <a href="#">ABOUT</a>
+  <a href="#">ESSAYS</a>
+  <a href="#">ARCHIVE</a>
+</div>
+
+<div id="main">
+<!--   <h2>Sidenav Push Example</h2>
+  <p>Click on the element below to open the side navigation menu, and push this content to the right. Notice that we add a black see-through background-color to body when the sidenav is opened.</p> -->
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+   
+</body>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+<!--sideNav ends-->
+  <h3 class="title"> REORIENT
+  </h3>
+   <hr>
+<nav class="navbar">
+<!--   <a href=
+<!--   <a href="Home.html">NEWS</a> --> 
+  <a href=index.html>HOME</a>
+  <a href="Archive.html">ARCHIVE</a>
+  <a href="Music.html">MUSIC</a>
+  <a href="Books.html">BOOKS</a>
+  <a href="Spotlight.html">ABOUT</a>
+</nav>
+<hr></hr>
+
+<!-- <h8 class="bookTitle"><hr class="mahmoudLineOne"></hr><center>POETRY</center><hr class="mahmoudLine"></hr> </h8> --> 
+<h8 class="musicTitle"><hr class="musicLineOne"></hr><center><b>MUSIC</b></center><hr class="musicLine"></hr> </h8> 
+   
+<!--   <div class="row" style="position:relative; top:90px"> 
+  <img class="vinyl1 "src="vinyl.png"> 
+ <img class="vinyl "src="vinyl.png"> 
+  <img class="vinyl2 "src="vinyl.png"> 
+  </div> -->
+</hr>
+<h6 class="playlistTitle"> THE CLASSICS </h6>
+  <hr class= "lineBelow"></hr>
+<!--  <hr class="lineSide"></hr>   -->
+ <div class="Arab Music">
+ <a href="https://open.spotify.com/playlist/2jlY1iABfDhrxDrInSd0la"><img class="fairouzPic" src="fairouz.jpg"></a>
+
+<!--  Artist to Watch  -->
+
+<!--   BOIIII BEWARE -->
+ 
+
+  
+<h6 class="arabMusic"> <em>THE SOUND & VOICE OF THE ARAB WORLD</em></h6>
+<h7 class="arabMusicTwo">FROM FAIROUZ TO UMM KULTHUM: A GUIDE TO THE 20th CENTURY</h7>
+  </div>
+<hr class="afterFairouz"></hr>
+<!-- <!--Nubian Music  -->
+  <div class="Nubian Music">
+  <a href="https://open.spotify.com/playlist/221zeLzY90NwBQ0xrV4KXP"><img class="sharhabilPic" src="wardi.jpg"></a> 
+    
+  <h6 class="nubianMusic"><em>THE NUBIANS OF SUDAN & EGYPT</em></h6>
+  <h7 class="nubianMusicTwo">FROM MOHAMMED WARDI TO THE SCORPIOS: GLIMPSE OF THE NUBIANS</h7>
+ </div>
+<hr class="afterWardi"></hr> 
+<!--   Iranian Music -->
+ <a href="https://open.spotify.com/playlist/0ctIOSAr7lS4TeIqERMDHv"><img class="iranGirl" src="goog.jpg"></a> 
+<h6 class="iranianMusic"><em>A JOURNEY TO IRAN</em></h6>
+  <h7 class="iranianMusicTwo">FROM GOOGHOSH TO HAYEDEH: IRAN'S BELOVED </h7>  
+  
+<!-- </div>
+  
+
+  <!--   text for Sephard -->
+
+ <hr class= "sephardicLine" </hr> 
+  <h5 class="playlistTitle1"> BROWSE MORE PLAYLISTS HERE >>> </h5>
+  <hr class= "lineBelow"></hr>
+<!--  <h6 class="weekTitle"> DIVERSE SOUNDS: <i>JEWISH WORLD</i></h6> -->
+  
+<!-- <div class="newMusic"> -->
+<!--   <a href="https://open.spotify.com/playlist/0XLp7eYUsyv8UUvVUCNqAk"><img class="sephardicPic"src="sephardic.jpg"></a>
+<h6 class="sephardicMusic"><em>SEPHARDIC</em></h6>
+  <h7 class="sephardicMusicTwo">SHOWCASING SEPHARDIC JEWISH FOLK & THE MEDITERRANEAN </h7> 
+  <hr class= "lineBelowS"></hr>  --> 
+
+
+
+
+
+
+  
+<img class="cacImg"src="https://zvuk-m.com/wp-content/uploads/2018/05/87658.jpg"style="position:relative; top:-1410px"> 
+  <div class="lastStrawTwo"style="position:relative; top:-1335px"> 
+  <h4 class="cacTitle">LISTENING DESK</h4>
+<p class="cacTitleOne">THE GREAT HYMMS OF THE MOUNTAINS</p>
+<p2 class="cacTitleTwo">Exploring the distinguishable sound of the Caucasian Valley.</p2>
+<h4 class="cacTitleThree"><b>BY: HALA OBEID</b></h4>
+ 
+  </div> 
+    <hr class="cacLastLine"</hr> 
+<!-- 
+  <div class="lastStrawThree"style="position:relative; top:-1290px"> 
+  <hr class="cacLastLine"</hr>  -->
+<!-- <img class="saharaPic"src="sahara.jpg"> -->
+<!--   <h4 class="sahTitle"> ECLECTIC SOUNDS </h4>
+<p class="sahTitleOne"><i>SAHARAN BLUES</i></p>
+<p2 class="sahTitleTwo">How desert blues rose to prominience world-wide.</p2>
+<h4 class="sahTitleThree"><b>BY: HALA OBEID</b></h4>
+ <hr class="sahSideLine"style="width:35%;text-align:left"></hr> 
+
+
+<img class="sheriPic"src=" https://en.vogue.me/wp-content/uploads/2020/05/sherihan-promo.jpg">
+  <h4 class="sheriTitle"> ARTIST PROFILE </h4>
+<p class="sheriTitleOne"><i>SHERIHAN: EGYPT'S "QUEEN OF POP"</i> </p>
+<p2 class="sheriTitleTwo">How a young girl revolutionized the music industry.</p2>
+<h4 class="sheriTitleThree"><b>BY: HALA OBEID</b></h4> 
+ 
+
+<<hr class="sahLastLine"style="position:relative;top:20px"></hr> -->
+< </div>  -->
+
+  </html>

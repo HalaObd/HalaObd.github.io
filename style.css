@@ -1,0 +1,274 @@
+html, body {
+   height: 1100px;
+}
+
+.title{
+  text-align: center;
+  font-size: 65px;
+  color:black;
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: 300;
+  margin-top:0%;
+}
+
+.para {
+  text-align: center;
+  padding-top:5%;
+}
+
+body {
+    color:#cfcaab;
+}
+
+.navbar {
+  color: #cfcaab; 
+  font-family: monarcha, serif;
+  overflow: hidden;
+  border-radius: 5px;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top:0%;
+/*   padding-top: ; */
+}
+
+.header {
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 10px;
+  font-family: serif;
+  color:#290f0f;
+  margin-top:0%;
+  margin-bottom: 0%;
+  
+}
+
+
+ a{
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+}
+
+.navbar a {
+  float: left;
+  color: #a19b9b;
+  font-family: vendetta, serif;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+
+
+}
+
+.navbar a:hover {
+  background-color: #fffcfa;
+  color: #0b0b0a;
+  text-decoration:underline;
+}
+
+.navbar a.active {
+  background-color: #8B74BD;
+  color: white;
+}
+
+
+.header {
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 10px;
+  font-family: serif;
+  color:white;
+  margin-top:0%;
+  margin-bottom: 0%;
+  
+}
+
+
+ a{
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+  navbar a {
+  float: left;
+  color: #f2f2f2;
+  font-family: vendetta, serif;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+
+
+}
+
+/* Elizabeth and Middle East */
+.elizabeth{
+  margin-top: 10%;
+   width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.elizabeth a:hover {
+ opacity: 0.3;
+}
+
+.lizzytag{
+  margin-left: 55%;
+  margin-top: 0%;
+  color:grey;
+}
+.lizzy{
+margin-left:33%;
+color:red;
+font-family: altesse-std-24pt;
+font-weight: 30%;
+}
+
+.lizzyOne{
+margin-left:33%;
+color:black;
+font-family:Times Georgia, 'Times New Roman', Times, serif;
+font-weight: 50%;
+font-size: 30px;
+margin-top:1%;
+}
+
+
+.arcTitle{
+  color:black;
+  text-align:center;
+  margin-top:5%;
+  font-size:45px;
+  font-family:Century Gothic;
+} 
+
+
+.arcLine{
+ margin-left:10%;
+ margin-right:10%; 
+}
+
+.arcLineOne{
+ margin-left:5%;
+ margin-right:5%; 
+}
+
+
+.saharaPic{
+  width:390px;
+  margin-left:550px;
+  
+  
+}
+
+.sahTitle{
+color:red;
+font-size:13px;
+font-family:Century Gothic;
+margin-left:37%;
+display:flex;
+align-items:flex-end;
+margin-top:-1px;
+}
+
+.sahTitleOne{
+color:black;
+font-size:32px;
+font-weight:1%;
+font-family:Trebuchet;
+margin-left:37%;
+display:flex;
+align-items:flex-end;
+margin-top: 20px;
+}
+
+.sahTitleTwo{
+  font-family: Times New Roman ;
+  font-size:17px;
+  color:black;
+  margin-left:37%;
+  display:flex;
+  align-items:flex-end;
+  margin-top: 20px;
+  
+}
+
+.sahTitleThree{
+  color:#212121;
+font-size:13px;
+font-family:Century Gothic;
+margin-left:37%;
+display:flex;
+align-items:flex-end;
+margin-top: 20px;
+
+}
+.sahLastLine{
+  margin-left:490px;
+  margin-right:20px;
+}  
+
+.sahSideLine{
+transform: rotate(90deg); 
+margin-right:250px;
+margin-top:-300px;
+} 
+
+/* Sherihannn */
+.sheriPic{
+ width:390px;
+ height:318px;
+ margin-left:1040px;
+ margin-top:60px;
+}
+
+.sheriTitle{
+color:red;
+font-size:13px;
+font-family:Century Gothic;
+margin-left:1050px;
+display:flex;
+align-items:flex-end;
+margin-top:-220px;
+}
+
+.sheriTitleOne{
+color:black;
+font-size:25px;
+font-weight:1%;
+font-family:Trebuchet;
+margin-left:1050px;
+display:flex;
+align-items:flex-end;
+margin-top: 27px;
+}
+
+.sheriTitleTwo{
+  font-family: Times New Roman ;
+  font-size:17px;
+  color:black;
+  margin-left:1050px;
+  display:flex;
+  align-items:flex-end;
+  margin-top: 40px;
+  
+}
+
+.sheriTitleThree{
+  color:#212121;
+font-size:13px;
+font-family:Century Gothic;
+margin-left:1050px;
+display:flex;
+align-items:flex-end;
+margin-top: 20px;
+
+}

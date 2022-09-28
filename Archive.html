@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+   <link href="Archive.css" rel="stylesheet" type="text/css" />
+  <link href="NavStyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- sideNav -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+font-family: proxima-nova, sans-serif;
+transition: background-color .5s;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: whitesmoke;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: gray;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">HOME</a>
+  <a href="#">ABOUT</a>
+  <a href="#">ESSAYS</a>
+  <a href="#">ARCHIVE</a>
+</div>
+
+<div id="main">
+<!--   <h2>Sidenav Push Example</h2>
+  <p>Click on the element below to open the side navigation menu, and push this content to the right. Notice that we add a black see-through background-color to body when the sidenav is opened.</p> -->
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+   
+</body>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+<!--sideNav ends-->
+  <h3 class="title"> REORIENT
+  </h3>
+  <hr>
+<nav class="navbar">
+  <a href=index.html>HOME</a>
+  <a href="Archive.html">ARCHIVE</a>
+  <a href="Music.html">MUSIC</a>
+  <a href="Books.html">BOOKS</a>
+  <a href="Spotlight.html">ABOUT</a>
+  
+</nav>
+<hr></hr>
+
+<h8 class="arcTitle"><hr class="arcLineOne"></hr><center>ARCHIVE</center><hr class="arcLine"></hr> </h8>
+
+  <!DOCTYPE html>
+<html>
+
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+
+<body>
+
+
+<div class="raymond" style="max-width:700px">
+  <img class="mySlides" src="https://im.vsco.co/aws-us-west-2/0e7b04/96617440/5d2ace67fafb542579484be7/vsco5d2ace6893925.jpg?w=412dpr=2.625" style="width:100%">
+  <img class="mySlides" src="https://blogbaladi.com/wp-content/uploads/2019/09/pic14.jpg" style="width:100%">
+  <img class="mySlides" src="https://blogbaladi.com/wp-content/uploads/2019/09/pic5.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
+
+<!--   <img class="lebPic"src="https://im.vsco.co/aws-us-west-2/0e7b04/96617440/5d2ace67fafb542579484be7/vsco5d2ace6893925.jpg?w=412&dpr=2.625">  -->
+<h4 class="lebTitle">IN SEARCH OF LOST TIME </h4>
+<p class="lebTitleOne">RAYMOND DEPARDON & LEBANON</p>
+<p2 class="lebTitleTwo">A glimpse of mid-twentieth century Lebanon.</p2>
+<h4 class="lebTitleThree"><b>OUR COLLECTION</b></h4>
+
+<h8 class="lebEndTitle"><hr class="lebLineOne"></hr><center>EXPLORE REGIONS</center><hr class="lebLine"></hr> </h8>
+<div class="region">
+<h6 class="africaTitle">NORTH AFRICA</h6>
+<h6 class="levantTitle">MIDDLE EAST</h6>
+<h6 class="birdTitle">CAUCASUS</h6>
+</div>
+
+<div class="images">
+<img class="africa"src="africa.jpg">
+<img class="middle" src= 
+"https://images.pexels.com/photos/4632800/pexels-photo-4632800.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+<img class="mount"src="https://images.pexels.com/photos/9873567/pexels-photo-9873567.jpeg?auto=compress&cs=tinysrgb&w=600">
+</div>
+<!--   Africa -->
+
+
+<!-- <div class="egyptPic">
+  <img src="egypt.jpg" alt="Avatar" class="image" style="width:300px">
+  <div class="middle">
+    <div class="text">Mediterranean</div>
+  </div>
+</div>
+  
+</body>
+</html>
+ -->
+
+
+
+</html>

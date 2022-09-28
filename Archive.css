@@ -1,0 +1,175 @@
+.arcTitle{
+  color:black;
+  text-align:center;
+  margin-top:5%;
+  font-size:45px;
+  font-family:Century Gothic;
+} 
+/* 
+.mahmoudTitleOne{
+color:black;
+font-size:30px;
+font-family:Courier;
+margin-left:70%;
+display:flex;
+align-items:flex-end;
+margin-top: 20px;
+} */
+
+.arcLine{
+ margin-left:10%;
+ margin-right:10%; 
+}
+
+.arcLineOne{
+ margin-left:5%;
+ margin-right:5%; 
+}
+
+.introPara{
+  color:black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.introPara0{
+  color:#b81414;
+  font-family:Century Gothic;
+  font-size: 35px;
+}
+
+
+/*Leb  */
+
+ .raymond{
+  width:700px; 
+  margin-left:250px;
+  margin-top:7%;
+} 
+
+.lebTitle{
+color:#ff6161;
+font-size:14px;
+font-family:Century Gothic;
+margin-left:70%;
+display:flex;
+align-items:flex-end;
+margin-top: -330px;
+}
+
+.lebTitleOne{
+color:black;
+font-size:30px;
+font-family:Courier;
+margin-left:70%;
+display:flex;
+align-items:flex-end;
+margin-top: 20px;
+}
+
+
+.lebTitleTwo{
+  font-family: Times New Roman ;
+  font-size:18px;
+  color:black;
+  margin-left:70%;
+  display:flex;
+  align-items:flex-end;
+  margin-top: 20px;
+  
+}
+
+.lebTitleThree{
+  color:black;
+font-size:14px;
+font-family:Century Gothic;
+margin-left:70%;
+display:flex;
+align-items:flex-end;
+margin-top: 20px;
+
+}
+
+.lebLineOne{
+margin-left:5%;
+margin-right:5%;   
+margin-top:20%;
+
+}
+
+.lebLine{
+margin-left:10%;
+margin-right:10%;  
+}
+
+.lebEndTitle{
+ margin-top: 20%;
+  color:black;
+  text-align:center;
+  font-size:45px;
+  font-family:Century Gothic;
+}
+
+.africaTitle{
+font-family: century gothic; 
+color: #ff0026;
+font-size: 30px;
+}
+
+
+.levantTitle{
+font-family: century gothic; 
+color: #ff0026;
+font-size: 30px;
+}
+
+.birdTitle{
+font-family: century gothic; 
+color: #ff0026;
+font-size: 30px;
+}
+.desertPic{
+  width:300px;
+}
+
+.egyptPic{
+  width:300px;
+  height:296px;
+}
+
+.mediPic{
+  width:300px;
+  height:296px;
+}
+
+
+img:hover {
+opacity: 75%;
+
+}
+
+.region{
+  display:flex;
+  justify-content:space-around;
+  margin-right:38px;
+}
+
+.africa{
+  width:340px;
+  height:290px;
+}
+
+.middle{
+  width:340px;
+  height:290px;
+}
+
+.mount{
+  width:340px;
+  height:290px;
+}
+
+.images{
+  display:flex;
+  justify-content:space-around;
+  margin-left:15px;
+}

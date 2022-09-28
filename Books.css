@@ -1,0 +1,313 @@
+html, body {
+   height: 1100px;
+}
+
+.title{
+  text-align: center;
+  font-size: 65px;
+  color:black;
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: 300;
+  margin-top:0%;
+}
+
+.para {
+  text-align: center;
+  padding-top:5%;
+}
+
+body {
+    color:#cfcaab;
+}
+
+.navbar {
+  color: #cfcaab; 
+  font-family: monarcha, serif;
+  overflow: hidden;
+  border-radius: 5px;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top:0%;
+/*   padding-top: ; */
+}
+
+.header {
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 10px;
+  font-family: serif;
+  color:#290f0f;
+  margin-top:0%;
+  margin-bottom: 0%;
+  
+}
+
+
+ a{
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+}
+
+.navbar a {
+  float: left;
+  color: #a19b9b;
+  font-family: vendetta, serif;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+
+
+}
+
+.navbar a:hover {
+  background-color: #fffcfa;
+  color: #0b0b0a;
+  text-decoration:underline;
+}
+
+.navbar a.active {
+  background-color: #8B74BD;
+  color: white;
+}
+
+
+.header {
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 10px;
+  font-family: serif;
+  color:white;
+  margin-top:0%;
+  margin-bottom: 0%;
+  
+}
+
+
+ a{
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+  navbar a {
+  float: left;
+  color: #f2f2f2;
+  font-family: vendetta, serif;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+
+
+}
+
+.bookTitle{
+  color:black;
+  text-align:center;
+  margin-top:5%;
+  font-size:45px;
+  font-family:Century Gothic;
+} 
+
+.mahmoudPic{
+  width: 740px;
+  margin-left:18%;
+  margin-top:-120px;
+}
+
+
+.mahmoudTitle{
+color:red;
+font-size:14px;
+font-family:Century Gothic;
+margin-left:70%;
+display:flex;
+align-items:flex-end;
+margin-top: -300px;
+}
+
+.mahmoudTitleOne{
+color:black;
+font-size:30px;
+font-family:Courier;
+margin-left:70%;
+display:flex;
+align-items:flex-end;
+margin-top: 20px;
+}
+
+.mahmoudLine{
+ margin-left:10%;
+ margin-right:10%; 
+}
+
+.mahmoudLineOne{
+ margin-left:5%;
+ margin-right:5%; 
+}
+
+.mahmoudTitleTwo{
+  font-family: Times New Roman ;
+  font-size:18px;
+  color:black;
+  margin-left:70%;
+  display:flex;
+  align-items:flex-end;
+  margin-top: 20px;
+  
+}
+
+.mahmoudTitleThree{
+  color:black;
+font-size:14px;
+font-family:Century Gothic;
+margin-left:70%;
+display:flex;
+align-items:flex-end;
+margin-top: 20px;
+
+}
+
+/* RUMII */
+
+.rumiTitle{
+  color:#ca1631;
+  font-size:20px;
+  margin-left:10px;
+  font-family:Century Gothic;
+  
+}
+
+.rumiLine{
+  margin-right:83%;
+}
+
+.lifeTitle{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #828282;
+  
+}
+
+.loveTitle{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #828282;
+  
+}
+
+.lifeoneTitle{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size:45px;
+color:black;
+}
+
+.loveoneTitle{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size:45px;
+color:black;
+}
+
+.passiononeTitle{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+font-size:45px;
+color:black;
+}
+
+.passionTitle{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #828282;
+}
+
+.religiononeTitle{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+font-size:45px;
+color:black;
+}
+
+.religionTitle{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #828282;
+}
+
+.inspiraoneTitle{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+font-size:45px;
+color:black;
+}
+
+.inspiraTitle{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #828282;
+}
+/* Rumi end */
+
+
+.paperbag{
+  margin-top:10%;
+}
+
+img:hover {
+opacity: 75%;
+
+}
+.saharaPic{
+  width:500px;
+  margin-left:120px;
+  margin-top:3%;
+}
+
+.sahTitle{
+color:red;
+font-size:13px;
+font-family:Century Gothic;
+margin-left:120px;
+display:flex;
+align-items:flex-end;
+margin-top:70px;
+}
+
+.sahTitleOne{
+color:black;
+font-size:32px;
+font-weight:1%;
+font-family:Trebuchet;
+margin-left:120px;
+display:flex;
+align-items:flex-end;
+margin-top: 20px;
+}
+
+.sahTitleTwo{
+  font-family: Times New Roman ;
+  font-size:17px;
+  color:black;
+  margin-left:120px;
+  display:flex;
+  align-items:flex-end;
+  margin-top: 20px;
+  
+}
+
+.sahTitleThree{
+  color:#212121;
+font-size:13px;
+font-family:Century Gothic;
+margin-left:120px;
+display:flex;
+align-items:flex-end;
+margin-top: 20px;
+
+}
+
+.sahSideLine{
+transform: rotate(90deg); 
+margin-right:500px;
+margin-top:-300px;
+} 
+
+
