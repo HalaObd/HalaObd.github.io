@@ -1,0 +1,141 @@
+.sah{
+margin-top:20px;  
+}
+
+.sahTitle{
+color:red;
+font-size:13px;
+font-family:Century Gothic;
+margin-left:37%;
+display:flex;
+align-items:flex-end;
+margin-top:-1px;
+}
+
+.sahTitleOne{
+color:black;
+font-size:32px;
+font-weight:1%;
+font-family:Trebuchet;
+margin-left:37%;
+display:flex;
+align-items:flex-end;
+margin-top: 20px;
+}
+
+.sahTitleTwo{
+  font-family: Times New Roman ;
+  font-size:17px;
+  color:black;
+  margin-left:37%;
+  display:flex;
+  align-items:flex-end;
+  margin-top: 20px;
+  
+}
+
+.sahTitleThree{
+  color:#212121;
+font-size:13px;
+font-family:Century Gothic;
+margin-left:37%;
+display:flex;
+align-items:flex-end;
+margin-top: 20px;
+
+}
+.sahLastLine{
+  margin-left:490px;
+  margin-right:20px;
+}  
+
+.sahSideLine{
+transform: rotate(90deg); 
+margin-right:250px;
+margin-top:-300px;
+} 
+
+/* Sherihannn */
+.sheriPic{
+ width:250px;
+ height:203px;
+ margin-left:1000px;
+ margin-top:-200px;
+
+}
+
+.sheri{
+  margin-left:-500px;
+  margin-top:-370px; 
+  
+}
+
+
+
+.sheriTitle{
+color:red;
+font-size:13px;
+font-family:Century Gothic;
+margin-left:1050px;
+display:flex;
+align-items:flex-end;
+margin-top:20%; 
+}
+
+.sheriTitleOne{
+color:black;
+font-size:25px;
+font-weight:1%;
+font-family:Trebuchet;
+margin-left:1050px;
+display:flex;
+align-items:flex-end;
+margin-top: 27px;
+}
+
+.sheriTitleTwo{
+  font-family: Times New Roman ;
+  font-size:17px;
+  color:black;
+  margin-left:1050px;
+  display:flex;
+  align-items:flex-end;
+  margin-top: 40px;
+  
+}
+
+.sheriTitleThree{
+  color:#212121;
+font-size:13px;
+font-family:Century Gothic;
+margin-left:1050px;
+display:flex;
+align-items:flex-end;
+margin-top: 20px;
+
+}
+
+
+
+img:hover {
+opacity: 75%;
+
+}
+
+.cacLastLinetwo{
+  margin-left:490px;
+  margin-right:20px;
+}
+
+.cacLastLinethree{
+  margin-left:490px;
+  margin-right:20px;
+  margin-top:20px;
+}
+.saharaPic{
+  width:250px;
+  margin-left:1000px;
+  margin-top:-300px;
+  
+  
+}

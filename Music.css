@@ -268,8 +268,8 @@ font-family:Century Gothic;
 /* that  */
 .lastStraw{
  transform: rotate(90deg);
- margin-top:90px;
- margin-left:-600px;
+ margin-top:-317px;
+ margin-left:-690px;
 }
 .lineBelowS{
   margin-right:73%; 
@@ -330,12 +330,26 @@ margin-top: 20px;
   margin-top:-1300px;
 }
 
+
+.cacLastLinetwo{
+  margin-left:490px;
+  margin-right:20px;
+}
+
+.cacLastLinethree{
+  margin-left:490px;
+  margin-right:20px;
+  margin-top:20px;
+}
 .saharaPic{
-  width:400px;
-  margin-left:800px;
-  margin-top:10%;
+  width:250px;
+  margin-left:1000px;
+  margin-top:-300px;
   
   
+}
+.sah{
+margin-top:20px;  
 }
 
 .sahTitle{
@@ -393,11 +407,20 @@ margin-top:-300px;
 
 /* Sherihannn */
 .sheriPic{
- width:390px;
- height:318px;
- margin-left:1040px;
- margin-top:60px;
+ width:250px;
+ height:203px;
+ margin-left:1000px;
+ margin-top:-200px;
+
 }
+
+.sheri{
+  margin-left:-500px;
+  margin-top:30px;
+  
+}
+
+
 
 .sheriTitle{
 color:red;
@@ -406,7 +429,7 @@ font-family:Century Gothic;
 margin-left:1050px;
 display:flex;
 align-items:flex-end;
-margin-top:-220px;
+/* margin-top:-220px; */
 }
 
 .sheriTitleOne{
