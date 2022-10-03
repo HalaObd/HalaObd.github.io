@@ -273,5 +273,13 @@ margin-top: 20px;
 
 }
 
+.exTitle{
+  color:black;
+  font-family: Times 'Times New Roman', Times, serif;
+  
+  
+}
+img:hover {
+opacity: 75%;
 
-
+}

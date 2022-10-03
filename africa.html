@@ -1,0 +1,237 @@
+<!-- <!DOCTYPE html>
+<html> -->
+
+<!--  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" /> -->
+<!--   <link href="Archive.css" rel="stylesheet" type="text/css" /> -->
+<!--   <link href="NavStyle.css" rel="stylesheet" type="text/css" /> 
+</head>  -->
+ 
+<body>
+  <!-- sideNav -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+font-family: proxima-nova, sans-serif;
+transition: background-color .5s;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: whitesmoke;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: gray;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   <a href="index.html">HOME</a>
+  <a href="About.html">ABOUT</a>
+  <a href="Essays.html">ESSAYS</a>
+  <a href="Archive.html">ARCHIVE</a>
+</div>
+
+<div id="main"> 
+<!--   <h2>Sidenav Push Example</h2>
+  <p>Click on the element below to open the side navigation menu, and push this content to the right. Notice that we add a black see-through background-color to body when the sidenav is opened.</p> -->
+ <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+   
+</body>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+<!--sideNav ends-->
+
+<!-- <nav class="navbar">
+  <a href=index.html>HOME</a>
+  <a href="Archive.html">ARCHIVE</a>
+  <a href="Music.html">MUSIC</a>
+  <a href="Books.html">BOOKS</a>
+   <a href="About.html">ABOUT</a>
+  
+</nav> -->
+
+<h8 style="font-family:century gothic;font-size:40px;"class="arcTitle"><hr class="arcLineOne"></hr><center>NORTH AFRICA </center><hr class="arcLine"></hr> </h8> 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 8px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.desc{
+  color:black;
+  font-size:12px;
+  font-family: Times 'Times New Roman', Times, serif;
+}
+</style>
+</head>
+<body>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="https://64.media.tumblr.com/tumblr_m2hj5m3nlg1qhao9bo1_500.jpg" alt="Moroccan Woman" width="600" height="400">
+    </a>
+    <div class="desc">-</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="https://i.pinimg.com/564x/ee/06/d3/ee06d37c7716bffa1cf7816a0964156e.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="https://i.pinimg.com/564x/6e/69/4b/6e694ba09d03a70a10ba7311760cc6a0.jpg" width="600" height="400">
+    </a>
+    <div class="desc"> Moroccan Dancer in Larache, 1935</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="https://i.pinimg.com/564x/94/cf/dd/94cfdd17037cfdd4dd122a7d578f0d82.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Jewish Berber Woman, 1935</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="https://i.pinimg.com/564x/d5/e9/4a/d5e94ac64b1f7cbb30f51f29ce124b08.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Ziz Valley, Morocco: Unknown</div>
+  </div>
+</div>
+
+  
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+
+</div>
+
+</body>
+</html>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
